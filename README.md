@@ -2,7 +2,7 @@
 
 這是一個介紹瑞士洛桑藝術園區 **Plateforme 10** 的互動式 3D 地圖。地圖模型使用 Blender 從零開始製作，並以 Three.js 呈現。下方也展示了模型製作過程的部分畫面。
 
-**[▶ 開啟線上互動地圖](https://plateforme10-interactive-map.vercel.app/)**
+**[▶ 開啟線上互動地圖](https://annynn1990.github.io/interactive-map/)**
 
 ## 地圖畫面
 
