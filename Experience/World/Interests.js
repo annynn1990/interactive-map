@@ -144,12 +144,11 @@ export default class Interests {
       {
         'image': '/images/img-mcba.jpg',
         'logo': '/images/logo-mcba.svg',
-        'title': 'Musée Cantonal des Beaux-Arts Lausanne',
-        'lead': 'Opened in 1841, the Vaud Museum of Fine Arts in Lausanne is one of the oldest Swiss museums exclusively dedicated to art. Now located in Plateforme 10, it presents several temporary exhibitions a year from its collection of 10,000 works.',
-        'description': `Ducros, Gleyre, Steinlen, Vallotton and Soutter: these are some of the Vaudois painters for which the Vaud Museum of Fine Arts (MCBA) is known, nationally and internationally. Their works form a large part of the museum’s collection, currently comprising some 10,000 paintings. <br><br>
-        The MCBA organises several temporary exhibitions every year, each one accompanied with a programme of cultural activities including events, guided tours and workshops for adults and children. Admission is free on the first Saturday of the month.`,
+        'title': '洛桑州立美術館',
+        'lead': '沃州美術館於 1841 年開幕，是瑞士歷史最悠久、專門展示藝術作品的美術館之一。現設於 Plateforme 10 藝術園區，每年從約一萬件館藏中策劃多場特展。',
+        'description': `杜克羅、格萊爾、斯坦蘭、瓦洛東與蘇特，都是讓沃州美術館（MCBA）享譽國內外的藝術家。他們的作品構成館藏的重要部分，整體館藏約有一萬件。<br><br>美術館每年舉辦多場特展，並安排各類文化活動，包括講座、導覽，以及適合成人與兒童參加的工作坊。每月第一個星期六免費入場。`,
         'schedule': [
-          'Closed',
+          '休館',
           '10:00 - 18:00',
           '10:00 - 18:00',
           '10:00 - 20:00',
@@ -166,14 +165,12 @@ export default class Interests {
       {
         'image': '/images/img-mudac.jpg',
         'logo': '/images/logo-mudac.svg',
-        'title': 'Musée Cantonal de Design et d’Arts Appliqués Contemporains',
-        'lead': 'mudac – Lausanne’s Museum of Contemporary Design and Applied Arts – is the only institution in Western Switzerland entirely dedicated to design.',
-        'description': `It has developed its identity and international reputation through hundreds of ambitious and often unusual exhibitions and continues to pursue a policy of openness and exchange between the many disciplines of contemporary creation. <br><br>
-        Its programme showcases designers and artists at solo exhibitions and extends to exhibitions that question the public on contemporary social issues. It demonstrates the museum’s interest in the world and in the wide scope that the term design itself can encompass. <br><br>
-        The diversity of points of view of each project has enabled mudac to assert itself both on the national and international scene by offering its exhibitions to its counterparts. Europe and Asia have thus been able to discover exhibitions made in mudac on numerous occasions.`,
+        'title': '洛桑當代設計與應用藝術博物館（mudac）',
+        'lead': 'mudac 是洛桑的當代設計與應用藝術博物館，也是瑞士西部唯一完全以設計為主題的機構。',
+        'description': `博物館透過數百場大膽且別具特色的展覽，建立自身風格與國際聲譽，並持續促進當代創作不同領域之間的開放交流。<br><br>展覽內容涵蓋設計師與藝術家的個展，也透過展覽引導大眾思考當代社會議題，呈現設計一詞所涵蓋的多元面向。<br><br>每項展覽都帶來不同觀點，使 mudac 在瑞士及國際藝文界建立重要地位；其策劃的展覽也多次巡迴歐洲與亞洲。`,
         'schedule': [
           '10:00 - 18:00',
-          'Closed',
+          '休館',
           '10:00 - 18:00',
           '10:00 - 20:00',
           '10:00 - 18:00',
@@ -189,13 +186,12 @@ export default class Interests {
       {
         'image': '/images/img-elysee.jpg',
         'logo': '/images/logo-elysee.svg',
-        'title': 'Photo Elysée',
-        'lead': 'Photo Elysée is one of the most important museums entirely dedicated to the photographic medium. Each year, we produce demanding exhibitions, distribute reference editorial content, conceive innovative events and offer events open to all.',
-        'description': `Since its creation in 1985 as a “museum for photography”, Photo Elysée has been questioning the permanent reinvention of the medium through the great figures who have marked its history by imagining new ways of seeing or making people see, while revealing in a privileged way the emerging photography which, through unseen views, bears witness to the world of today and prefigures that of tomorrow. In other words: to cover all the subjects of photography, to discover them sometimes, and above all to make them rediscovered. <br><br>
-        The museum’s collection of more than 1,200,000 phototypes covers the entire field of photography, from the first processes dating from the 1840s to the digital image. It includes many complete photographic collections or archives, including those of Sabine Weiss, Jan Groover, René Burri, Ella Maillart, Nicolas Bouvier, Charlie Chaplin, Gertrude Fehr, Hans Steiner and Olivier Föllmi.`,
+        'title': '愛麗舍攝影博物館（Photo Elysée）',
+        'lead': 'Photo Elysée 是國際重要的攝影專門博物館之一。每年策劃多元展覽、出版具參考價值的內容，並舉辦創新且向大眾開放的活動。',
+        'description': `Photo Elysée 於 1985 年以攝影博物館之名創立，透過攝影史上的重要人物，持續探討攝影媒介如何不斷演變，並發掘以嶄新視角呈現當代世界、預示未來的攝影創作。博物館致力於涵蓋攝影的各種主題，帶領觀眾探索並重新認識影像。<br><br>館藏超過 120 萬件攝影作品，從 1840 年代早期攝影技術一路涵蓋至數位影像，並收藏多位攝影師的完整作品與檔案，包括 Sabine Weiss、Jan Groover、René Burri、Ella Maillart、Nicolas Bouvier、Charlie Chaplin、Gertrude Fehr、Hans Steiner 及 Olivier Föllmi。`,
         'schedule': [
           '10:00 - 18:00',
-          'Closed',
+          '休館',
           '10:00 - 18:00',
           '10:00 - 20:00',
           '10:00 - 18:00',
@@ -212,13 +208,12 @@ export default class Interests {
       {
         'image': '/images/img-arcadia.jpg',
         'logo': '/images/logo-arcadia.svg',
-        'title': 'Arcadia Restaurant',
-        'lead': `Authentic Mediterranean dining at the heart of Lausanne's arts district`,
-        'description': `Arcadia Restaurant, with its seven iconic arches, opens the door to a la carte Mediterranean cuisine, balancing fresh flavours with seasonal local ingredients and products. Our menu is served alongside an inspired cocktail offering and a selection of local beer and wines. <br><br>
-        For those looking for a relaxed, tasty, and inclusive dining experience, whether at lunch for everyday cooking or in the evening for a more special occasion. Always in a relaxed and friendly environment.`,
+        'title': 'Arcadia 地中海餐廳',
+        'lead': `位於洛桑藝術園區中心，提供道地的地中海料理。`,
+        'description': `Arcadia 餐廳以七道標誌性拱門為特色，提供單點地中海料理，結合清新風味、當季在地食材與地方產品。餐點也可搭配特色調酒，以及當地啤酒與葡萄酒。<br><br>無論是享用日常午餐，或在晚上慶祝特別時刻，都能在輕鬆友善的環境中享受美味餐飲。`,
         'schedule': [
           '10:00 - 23:00',
-          'Closed',
+          '休館',
           '10:00 - 23:00',
           '10:00 - 23:00',
           '10:00 - 23:00',
@@ -234,11 +229,11 @@ export default class Interests {
       {
         'image': '/images/img-nabi.jpg',
         'logo': '/images/logo-nabi.svg',
-        'title': 'Le Nabi Café-Restaurant',
-        'lead': `Traditional cuisine to savour before or after a visit to Plateforme 10!`,
-        'description': `The menu aims to be inviting, familial, yet inventive. Traditional cooking is restyled while the menu follows the seasons by adapting to the harvest of local producers. The drinks are artisanal. Meticulous service at reasonable prices for a convivial moment that everyone can afford to enjoy. Kids are very much welcome, too. Menu selections are designed for savory discoveries, and a play area encourages creativity.`,
+        'title': 'Le Nabi 咖啡餐廳',
+        'lead': `參觀 Plateforme 10 前後，品嚐傳統風味料理！`,
+        'description': `餐廳以親切、溫馨又富創意的料理為特色，依照季節與在地生產者的收成調整菜單，重新演繹傳統菜色。飲品也以手工製作為主，並以合理價格提供細緻服務，適合親友共享。餐廳歡迎兒童，並設有鼓勵創意的遊戲區，讓用餐體驗更豐富。`,
         'schedule': [
-          'Closed',
+          '休館',
           '09:30 - 18:00',
           '09:30 - 18:00',
           '09:30 - 20:00',
@@ -255,12 +250,12 @@ export default class Interests {
       {
         'image': '/images/img-lumen.jpg',
         'logo': '/images/logo-lumen.svg',
-        'title': 'Lumen Café',
-        'lead': `A spontaneous and fast cuisine with authentic artisanal products`,
-        'description': `Le Café Lumen invites you to discover its menu of quick and spontaneous dishes that use artisanal products served simply on a board, in a clay bowl, or nestled between two slices of focaccia. Here you will find the best of the region’s culinary tradition. All our drinks are artisanal with a fine selection of craft cider and beer, wine, and homemade non-alcoholic beverages. Our coffee is freshly roasted. We’re a stop along the region’s greenway, the Voie Verte foot and bicycle path, with takeaway service available.`,
+        'title': 'Lumen 咖啡館',
+        'lead': `以真材實料的手工產品，提供輕鬆快速的餐飲選擇。`,
+        'description': `Lumen 咖啡館提供快速、隨興的餐點，選用手工製作的食材，以餐盤、陶碗或佛卡夏麵包等簡單方式呈現，展現當地飲食傳統。飲品皆精選手工產品，包括精釀蘋果酒、啤酒、葡萄酒與自製無酒精飲品；咖啡則採用新鮮烘焙的咖啡豆。咖啡館位於 Voie Verte 綠色步道沿線，也提供外帶服務。`,
         'schedule': [
           '10:00 - 18:00',
-          'Closed',
+          '休館',
           '10:00 - 18:00',
           '10:00 - 20:00',
           '10:00 - 18:00',
