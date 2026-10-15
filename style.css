@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans:wght@400;700&family=Noto+Sans+TC:wght@400;500;700&display=swap');
 
 * {
   margin: 0;
@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Noto Sans TC', 'IBM Plex Sans', sans-serif;
   font-size: 1.125rem;
   line-height: 1.5rem;
   overflow: hidden;
@@ -268,7 +268,7 @@ button:hover {
 .controls-touch {
   z-index: 9999999;
   padding: 1.25rem;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Noto Sans TC', 'IBM Plex Mono', monospace;
   text-transform: uppercase;
   color: #041676;
   font-size: 0.8rem;
