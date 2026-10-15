@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./vite.svg" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#d6d2ca" />
+    <meta name="description" content="探索瑞士洛桑 Plateforme 10 藝術園區的互動式 3D 地圖，認識美術館、攝影博物館、設計博物館與餐飲空間。" />
+    <title>Plateforme 10－互動式 3D 地圖</title>
+    <script type="module" crossorigin src="./assets/index-4c362519.js"></script>
+    <link rel="stylesheet" href="./assets/index-87531ccc.css">
+  </head>
+  <body>
+    <!-- 除錯面板 -->
+    <!-- <div id="debug"></div> -->
+
+    <!-- 載入畫面 -->
+    <div class="preloader">
+      <div class="preloader-wrapper">
+        <div class="loading">
+          <img class="loader" src="./images/loader.svg" alt="載入中">
+          <p class="loading-progress">0</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3D 互動場景 -->
+    <div class="experience">
+      <canvas class="experience-canvas"></canvas>
+    </div>
+
+    <!-- 園區標誌 -->
+    <header>
+      <img class="logo" src="./images/logo-plateforme10.svg" alt="Plateforme 10 園區標誌">
+    </header>
+
+    <!-- 主要內容 -->
+    <main>
+      <!-- 園區景點 -->
+      <div class="point mudac museum">
+        <img class="label" src="./images/logo-mudac.svg" alt="mudac 設計博物館標誌">
+        <div class="text">洛桑當代設計與應用藝術博物館</div>
+      </div>
+      <div class="point elysee museum">
+        <img class="label" src="./images/logo-elysee.svg" alt="Photo Elysée 攝影博物館標誌">
+        <div class="text">愛麗舍攝影博物館（Photo Elysée）</div>
+      </div>
+      <div class="point arcadia restaurant">
+        <img class="label icn" src="./images/icn-restaurant.svg" alt="餐廳圖示">
+        <div class="text">Arcadia 地中海餐廳</div>
+      </div>
+      <div class="point nabi restaurant">
+        <img class="label icn" src="./images/icn-restaurant.svg" alt="餐廳圖示">
+        <div class="text">Le Nabi 咖啡餐廳</div>
+      </div>
+      <div class="point lumen restaurant">
+        <img class="label icn" src="./images/icn-restaurant.svg" alt="餐廳圖示">
+        <div class="text">Lumen 咖啡館</div>
+      </div>
+      <div class="point mcba museum">
+        <img class="label" src="./images/logo-mcba.svg" alt="洛桑州立美術館標誌">
+        <div class="text">洛桑州立美術館（MCBA）</div>
+      </div>
+
+      <!-- 景點資訊面板 -->
+      <div class="info-panel">
+        <div class="info-panel-header">
+          <img class="close" src="./images/icn-close.svg" alt="關閉資訊面板" role="button" tabindex="0">
+        </div>
+        <div class="info-panel-content">
+          <div class="info-panel-content-wrapper">
+            <img class="info-panel-image" src="" alt="">
+            <img class="info-panel-logo" src="" alt="">
+            <h2 class="info-panel-title"></h2>
+            <p class="info-panel-lead"></p>
+            <p class="info-panel-description"></p>
+            <table>
+              <caption>開放時間</caption>
+                <tr>
+                  <th scope="col">星期</th>
+                  <th scope="col">時間</th>
+                </tr>
+                <tr>
+                  <td class="col-min">星期一</td>
+                  <td class="info-panel-monday"></td>
+                </tr>
+                <tr>
+                  <td class="col-min">星期二</td>
+                  <td class="info-panel-tuesday"></td>
+                </tr>
+                <tr>
+                  <td class="col-min">星期三</td>
+                  <td class="info-panel-wednesday"></td>
+                </tr>
+                <tr>
+                  <td class="col-min">星期四</td>
+                  <td class="info-panel-thursday"></td>
+                </tr>
+                <tr>
+                  <td class="col-min">星期五</td>
+                  <td class="info-panel-friday"></td>
+                </tr>
+                <tr>
+                  <td class="col-min">星期六</td>
+                  <td class="info-panel-saturday"></td>
+                </tr>
+                <tr>
+                  <td class="col-min">星期日</td>
+                  <td class="info-panel-sunday"></td>
+                </tr>
+            </table>
+            <table>
+              <caption>聯絡資訊</caption>
+              <tbody>
+                <tr>
+                  <th class="col-min" scope="row">電話</th>
+                  <td class="info-panel-phone"></td>
+                </tr>
+                <tr>
+                  <th class="col-min" scope="row">電子郵件</th>
+                  <td class="info-panel-email"></td>
+                </tr>
+              </tbody>
+            </table>
+
+            <a class="info-panel-website" href="" target="_blank" rel="noopener noreferrer">
+              <button>前往官方網站</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- 頁尾與操作說明 -->
+    <footer>
+      <div class="controls">
+        <p class="controls-mouse">
+          滑鼠操作說明<br><br>
+          滑鼠左鍵－旋轉<br>
+          滑鼠右鍵－平移<br>
+          滑鼠中鍵－縮放
+        </p>
+        <p class="controls-touch">
+          觸控操作說明<br><br>
+          單指拖曳－旋轉<br>
+          雙指拖曳－平移<br>
+          雙指捏合／張開－縮放<br>
+        </p>
+      </div>
+    </footer>
+
+    
+  </body>
+</html>
